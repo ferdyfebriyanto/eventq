@@ -22,7 +22,6 @@ Adalah sebuah aplikasi pemesanan tiket event yang dibuat dengan framework Flutte
 
 ## Roles
 
-- [x] Admin
 - [x] Peserta
 - [x] Petugas
 - [x] Penyelenggara
