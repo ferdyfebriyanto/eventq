@@ -1,6 +1,6 @@
 # EVENTQ (Event Ticketing System)
 
-Adalah sebuah aplikasi pemesanan tiket event yang dibuat dengan framework Flutter 3.3.0 dan menggunakan Firebase sebagai backendnya.
+Adalah sebuah aplikasi pemesanan tiket event yang dibuat dengan framework Flutter 3.3.0 dan menggunakan Firebase sebagai backendnya. Gateway payment yang digunakan Midtrans.
 
 ## Fitur
 
