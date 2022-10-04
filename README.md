@@ -1,16 +1,43 @@
-# eventq
+# EVENTQ (Event Ticketing System)
 
-A new Flutter project.
+Adalah sebuah aplikasi pemesanan tiket event yang dibuat dengan framework Flutter 3.3.0 dan menggunakan Firebase sebagai backendnya.
 
-## Getting Started
+## Fitur
 
-This project is a starting point for a Flutter application.
+- [x] Login
+- [x] Register
+- [x] Dashboard
+- [x] Event List
+- [x] Event Detail
+- [x] Event Ticket
+- [x] Event Ticket Detail
+- [x] Event Ticket Checkout
+- [x] Event Ticket Payment
+- [x] Searching Event
+- [x] Validasi tiket dengan QR Code
+- [x] Profile
+- [x] Edit Profile
+- [x] Create Event
+- [x] Report Event
 
-A few resources to get you started if this is your first Flutter project:
+## Roles
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [x] Admin
+- [x] Peserta
+- [x] Petugas
+- [x] Penyelenggara
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Instalasi
+
+1. Clone repository ini
+2. Jalankan `flutter pub get` untuk mendownload semua package yang dibutuhkan
+3. Jalankan `flutter run` untuk menjalankan aplikasi
+
+## Desain Figma
+
+[Figma](https://www.figma.com/file/xCSTmQ1fxeXgHLwUoP7MRg/UI-Event-Ticketing-System?node-id=0%3A1)
+## Dokumentasi
+
+
+
+
