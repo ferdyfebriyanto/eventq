@@ -35,7 +35,10 @@ Adalah sebuah aplikasi pemesanan tiket event yang dibuat dengan framework Flutte
 ## Desain Figma
 
 [Figma](https://www.figma.com/file/xCSTmQ1fxeXgHLwUoP7MRg/UI-Event-Ticketing-System?node-id=0%3A1)
+
 ## Dokumentasi
+
+[Dokumentasi](https://drive.google.com/drive/u/1/folders/1Uf5tS66hrXXZmRemlYpbfCuVdKnefsaU)
 
 
 
