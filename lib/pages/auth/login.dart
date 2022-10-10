@@ -1,3 +1,6 @@
+import 'package:eventq/pages/auth/signup.dart';
+import 'package:eventq/pages/home_peserta.dart';
+import 'package:eventq/widgets/bottom_navbar.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -39,7 +42,7 @@ class _LoginPageState extends State<LoginPage> {
                       TextFormField(
                         controller: widget.controllerEmail,
                         decoration: InputDecoration(
-                          hintText: 'Masukkan Email Address',
+                          hintText: 'Masukkan Email',
                           isDense: true,
                           filled: true,
                           fillColor: Colors.white,
@@ -66,7 +69,14 @@ class _LoginPageState extends State<LoginPage> {
                         height: 20,
                       ),
                       ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => Navbar(),
+                            ),
+                          );
+                        },
                         child: Text('Login'),
                       ),
                       const SizedBox(
@@ -77,7 +87,14 @@ class _LoginPageState extends State<LoginPage> {
                         children: [
                           Text('Don’t have an account?'),
                           TextButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => SignUpPage(),
+                                ),
+                              );
+                            },
                             child: Text('Register'),
                           ),
                         ],
