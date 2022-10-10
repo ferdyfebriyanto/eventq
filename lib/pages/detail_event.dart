@@ -12,6 +12,7 @@ class _DetailEventPageState extends State<DetailEventPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xffF5FAFF),
       appBar: AppBar(
         title: Text("Detail Event"),
       ),
