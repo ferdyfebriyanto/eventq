@@ -18,7 +18,7 @@ class _DetailEventPageState extends State<DetailEventPage> {
       ),
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(20),
+          padding: const EdgeInsets.all(10),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [

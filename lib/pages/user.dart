@@ -11,11 +11,11 @@ class _UserPageState extends State<UserPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xffF5FAFF),
       body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(20),
+        child: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Padding(
                 padding: EdgeInsets.only(left: 20, top: 30),
@@ -42,7 +42,16 @@ class _UserPageState extends State<UserPage> {
               SizedBox(
                 height: 20,
               ),
-              ElevatedButton(onPressed: () {}, child: const Text("Logout")),
+              ElevatedButton(
+                onPressed: () {},
+                child: const Text(
+                  "Logout",
+                  style: TextStyle(color: Colors.white),
+                ),
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.red,
+                ),
+              ),
             ],
           ),
         ),
