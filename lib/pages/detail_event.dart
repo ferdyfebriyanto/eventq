@@ -20,10 +20,10 @@ class _DetailEventPageState extends State<DetailEventPage> {
         child: Padding(
           padding: const EdgeInsets.all(10),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Padding(
-                padding: EdgeInsets.only(left: 20, top: 30),
+                padding: EdgeInsets.only(left: 20, top: 10),
                 child: Text(
                   'Detail Event',
                   style: TextStyle(
