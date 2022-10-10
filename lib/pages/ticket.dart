@@ -1,3 +1,4 @@
+import 'package:eventq/pages/detail_ticket.dart';
 import 'package:flutter/material.dart';
 
 class TicketPage extends StatefulWidget {
@@ -50,6 +51,12 @@ class _TicketPageState extends State<TicketPage> {
                           fit: BoxFit.cover),
                     ),
                   ),
+                  onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => DetailTicketPage(),
+                    ),
+                  ),
                   tileColor: Colors.white,
                   title: Text("Pestapora 2022"),
                   subtitle: Text("12 November 2022"),
@@ -65,6 +72,12 @@ class _TicketPageState extends State<TicketPage> {
                             image: NetworkImage(
                                 "https://img.freepik.com/free-vector/music-event-poster-template-with-abstract-shapes_1361-1316.jpg?w=1380&t=st=1665363069~exp=1665363669~hmac=b01bf3b7eae945ed73ab16f301d929834f15fb51faf7e4b2fc5506660aaf8631"),
                             fit: BoxFit.cover)),
+                  ),
+                  onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => DetailTicketPage(),
+                    ),
                   ),
                   tileColor: Colors.white,
                   title: Text("Pestapora 2021"),
